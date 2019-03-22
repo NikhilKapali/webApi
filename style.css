@@ -1,0 +1,90 @@
+
+
+body{
+  800px;
+}
+
+.container
+{
+background-color: blue;
+height: 800px;
+width: 800px;
+margin: auto;
+}
+.content
+{
+  float: left;
+margin-top: 20px;
+}
+.child1
+{
+  height: 100px;
+  width: 500px;
+  background-color: purple;
+  margin-left: 150px;
+
+
+}
+.child2
+{
+  height: 400px;
+  width: 240px;
+  float: left;
+  background-color: red;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}.child3
+{
+  height: 400px;
+  width: 240px;
+  float: left;
+  background-color: red;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}.child4
+{
+  height: 400px;
+  width: 240px;
+  float: left;
+  background-color: red;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+.childb1
+{
+  height: 100px;
+  width: 370px;
+  float: left;
+  background-color: green;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+.childb2
+{
+  height: 100px;
+  width: 370px;
+  float: left;
+  background-color: green;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+@media screen and (max-width:600px)
+{
+  .childb1
+  {
+    width: 100px;
+    background-color: yellow;
+  }
+
+  .childb2
+    {
+      width: 100px;
+      background-color: yellow;
+    }
+}
